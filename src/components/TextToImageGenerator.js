@@ -22,9 +22,9 @@ const TextToImageGenerator = () => {
     setLoading(true); // Set loading to true when the function starts
     const options = {
       method: 'POST', // HTTP method
-      url: 'https://ai-image-generator3.p.rapidapi.com/generate', // API endpoint
+      url: 'https://ai-image-generator3.p.rapidapi.com/generate', 
       headers: {
-        'x-rapidapi-key': '57630eb2e9msh0fd6988580150d8p11329djsn06950a67782b', // API key
+        'x-rapidapi-key': '35597495b6msh212d116a625eec0p13b4afjsnaf90533703f9', // API key
         'x-rapidapi-host': 'ai-image-generator3.p.rapidapi.com', // API host
         'Content-Type': 'application/json' // Content type of the request
       },
